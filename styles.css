@@ -60,6 +60,13 @@ nav {
   margin-top: 6rem;
 }
 
+a {
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: none;
+}
+
 /* Main */
 .main {
   background-color: white;
@@ -166,7 +173,6 @@ nav {
 }
 .codifiers-link:hover {
   color: #ffffff77;
-  text-decoration: none;
 }
 
 .resume-btn {
@@ -179,9 +185,9 @@ nav {
 }
 .resume:hover {
   color: #fff;
-  text-decoration: none;
 }
 
+/* Skills */
 .container-skills {
   padding: 3% 5% 3% 5%;
 }
@@ -216,28 +222,27 @@ p {
   font-size: 18px;
 }
 
+/* Projects */
 .container-projects {
   padding: 3% 5% 3% 5%;
 }
+
 .project-assets {
-  margin-bottom: 25px;
+  margin-bottom: 1.2rem;
   width: 100%;
 }
+
 .project-title {
-  color: #3f3d3d;
   font-size: 23px;
   font-weight: bold;
-}
-.codifiers-web {
-  color: #3f3d3d;
-}
-.project-assets-codi {
-  margin-bottom: 18px;
-  width: 65%;
-  margin-left: 70px;
-  margin-top: -15px;
+  text-align: center;
 }
 
+.codifiers-web-projects {
+  color: #3f3d3d;
+}
+
+/* Contact */
 .container-contact {
   padding: 3% 5% 3% 5%;
 }
@@ -285,7 +290,6 @@ p {
 }
 .linktree:hover {
   color: #fff;
-  text-decoration: none;
   opacity: 0.7;
 }
 .foot-head2 {
