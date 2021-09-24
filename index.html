@@ -31,11 +31,12 @@
     ></script>
 
     <link rel="stylesheet" href="styles.css" />
-    <link rel="icon" href="./images/harsh.jpg" />
+    <link rel="icon" href="./images/harsh-bg.png" />
   </head>
 
   <body>
-    <nav class="navbar navbar-expand-lg navbar-light">
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark">
       <a class="navbar-brand" href="index.html">Harsh Jha</a>
       <button
         class="navbar-toggler"
@@ -86,70 +87,68 @@
             <a class="nav-link" href="#contact">Contact Me</a>
           </li>
         </ul>
-        <!-- <form class="form-inline my-2 my-lg-0">
-            <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
-            <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
-          </form> -->
       </div>
     </nav>
 
+    <!-- Main section -->
     <div class="main">
-      <div class="about">
-        <!-- <div class="bg"></div>
-        <div class="bg bg2"></div>
-        <div class="bg bg3"></div> -->
-        <div class="about-me">
-          <h2 class="hello">Hi, I'm Harsh Jha</h2>
-          <h3 class="taglines">Web Developer</h3>
-          <h3 class="taglines">Graphic Designer</h3>
-          <h3 class="taglines">Blogger</h3>
-          <div class="intro-icons">
-            <a
-              href="mailto:harshkr2709@gmail.com"
-              target="_blank"
-              class="fas fa-envelope envelope rounded-circle"
-              aria-hidden="true"
-            ></a>
-            <a
-              href="https://www.linkedin.com/in/harsh-jha-0675b5171/"
-              target="_blank"
-              class="fab fa-linkedin-in linkedin rounded-circle"
-              aria-hidden="true"
-            ></a>
-            <a
-              href="https://www.facebook.com/harsh.kr.9026"
-              target="_blank"
-              class="fab fa-facebook-f facebook rounded-circle"
-              aria-hidden="true"
-            ></a>
-            <a
-              href="https://github.com/HarshJ27"
-              target="_blank"
-              class="fab fa-github github rounded-circle"
-              aria-hidden="true"
-            ></a>
-            <a
-              href="https://www.instagram.com/j.harsh2709/"
-              target="_blank"
-              class="fab fa-instagram instagram rounded-circle"
-              aria-hidden="true"
-            ></a>
+      <!-- Home section -->
+      <div class="home">
+        <div class="intro">
+          <div>
+            <h2 class="hello">Hi, I'm Harsh Jha</h2>
+            <h3 class="taglines">Web Developer</h3>
+            <h3 class="taglines">Graphic Designer</h3>
+            <h3 class="taglines">Blogger</h3>
+            <div class="intro-icons">
+              <a
+                href="mailto:harshkr2709@gmail.com"
+                target="_blank"
+                class="fas fa-envelope envelope rounded-circle"
+                aria-hidden="true"
+              ></a>
+              <a
+                href="https://www.linkedin.com/in/harsh-jha-0675b5171/"
+                target="_blank"
+                class="fab fa-linkedin-in linkedin rounded-circle"
+                aria-hidden="true"
+              ></a>
+              <a
+                href="https://www.facebook.com/harsh.kr.9026"
+                target="_blank"
+                class="fab fa-facebook-f facebook rounded-circle"
+                aria-hidden="true"
+              ></a>
+              <a
+                href="https://github.com/HarshJ27"
+                target="_blank"
+                class="fab fa-github github rounded-circle"
+                aria-hidden="true"
+              ></a>
+              <a
+                href="https://www.instagram.com/j.harsh2709/"
+                target="_blank"
+                class="fab fa-instagram instagram rounded-circle"
+                aria-hidden="true"
+              ></a>
+            </div>
           </div>
         </div>
 
         <div class="harsh-img-container">
-          <img class="harsh-img" src="./images/harsh.jpg" alt="harsh" />
+          <img class="harsh-img" src="./images/harsh-bg.png" alt="harsh" />
         </div>
       </div>
 
+      <!-- About -->
       <h2 class="headings" id="about">About Me</h2>
-      <div class="about-par">
+      <div class="about">
         <div class="gap">
           <h5 class="lines p1">
             I am an aspiring Web Developer, a Graphic Designer, and a Blogger.
           </h5>
           <h5 class="lines p2">
-            As a computer science srudent, I learn to innovate and explore the
+            As a computer science student, I learn to innovate and explore the
             new horizons of technology.
           </h5>
           <h5 class="lines p3">
@@ -157,20 +156,24 @@
             day.
           </h5>
           <h5 class="lines p4">
-            Well for now, I am Founder of a start-up called as Codifiers.
-            <!-- <a class="lines codifiers-link" href="https://codifiers.in/" target="_blank"
+            Well for now, I am Founder of a start-up called as
+            <a
+              class="codifiers-link"
+              href="https://codifiers.in/"
+              target="_blank"
               >Codifiers</a
-            >. -->
+            >.
           </h5>
-          <div class="res-button1">
+          <div class="resume-btn">
             <button type="button" class="btn btn-dark">
-              <a class="res" href="MyResume.docx">Download MyResume</a>
+              <a class="resume" href="MyResume.docx">Download MyResume</a>
             </button>
           </div>
         </div>
       </div>
 
-      <h2 class="headings" id="skills">Skiils I Have</h2>
+      <!-- Skills -->
+      <h2 class="headings" id="skills">Skills I Have</h2>
       <div class="container-fluid container-skills">
         <div class="row">
           <div class="skill-box col-lg-4 col-md-6">
@@ -226,6 +229,7 @@
         </div>
       </div>
 
+      <!-- Projects -->
       <h2 class="headings" id="projects">Projects</h2>
       <div class="container-fluid container-projects">
         <div class="row">
@@ -233,12 +237,12 @@
             <div class="box-skills">
               <img
                 class="project-assets"
-                src="./images/codi.png"
+                src="./images/codifiers.png"
                 alt="Codifiers Website"
               />
               <h3 class="project-title">
                 <a
-                  class="codifiers-web"
+                  class="codifiers-web-projects"
                   href="https://codifiers.in/"
                   target="_blank"
                   >Codifiers Website</a
@@ -246,6 +250,7 @@
               </h3>
             </div>
           </div>
+
           <div class="skill-box col-lg-4 col-md-6">
             <div class="box-skills">
               <img
@@ -255,7 +260,7 @@
               />
               <h3 class="project-title">
                 <a
-                  class="codifiers-web"
+                  class="codifiers-web-projects"
                   href="https://dwivedyaakash.github.io/igautomate/"
                   target="_blank"
                   >IgAutomate Website</a
@@ -263,16 +268,7 @@
               </h3>
             </div>
           </div>
-          <div class="skill-box col-lg-4 col-md-6">
-            <div class="box-skills">
-              <img
-                class="project-assets-codi"
-                src="./images/codifiers_logo_circular.png"
-                alt="Cdoifiers Logo"
-              />
-              <h3 class="project-title">Codifiers Logo</h3>
-            </div>
-          </div>
+
           <div class="skill-box col-lg-4 col-md-6">
             <div class="box-skills">
               <img
@@ -282,7 +278,7 @@
               />
               <h3 class="project-title">
                 <a
-                  class="codifiers-web"
+                  class="codifiers-web-projects"
                   href="http://www.greenhorn.me/"
                   target="_blank"
                   >Green Horn Website</a
@@ -293,6 +289,7 @@
         </div>
       </div>
 
+      <!-- Contact -->
       <h2 class="headings" id="contact">Contact Me</h2>
 
       <div class="container-fluid container-contact">
@@ -313,6 +310,7 @@
         </div>
       </div>
 
+      <!-- Footer -->
       <footer class="foot">
         <p class="foot-head1">
           <a
@@ -322,13 +320,18 @@
             >Linktree</a
           >&nbsp;|&nbsp;
           <a
-          class="linktree"
+            class="linktree"
             href="https://open.spotify.com/playlist/37i9dQZF1EMeUKquJ92W9I?si=589049930a984db5"
             target="_blank"
-            > Let's Spotify?</a
+          >
+            Let's Spotify?</a
           >&nbsp;|&nbsp;
-          <a class="linktree" href="https://forms.gle/pP5DVB1svSxhHGkM6" target="_blank"
-            > Project Idea?</a
+          <a
+            class="linktree"
+            href="https://forms.gle/pP5DVB1svSxhHGkM6"
+            target="_blank"
+          >
+            Project Idea?</a
           >
         </p>
         <p class="foot-head2">&copy; 2021 Harsh Jha</p>
