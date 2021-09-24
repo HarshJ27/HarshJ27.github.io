@@ -251,22 +251,26 @@ p {
   color: #272727;
   font-weight: bold;
 }
+
 .mail-me,
 .map {
   padding-bottom: 22px !important;
   font-size: xx-large;
   color: #272727 !important;
 }
+
 .contact-description,
 .contact-description a {
   color: rgb(78, 78, 78);
 }
+
 .contact-row {
   text-align: left;
   margin-left: 5%;
   margin-right: 5%;
   justify-content: center;
 }
+
 .email-box,
 .phone-box {
   border-radius: 10px;
@@ -274,6 +278,7 @@ p {
   box-shadow: 0px 0 150px rgb(1 41 112 / 8%);
 }
 
+/* Footer */
 .foot {
   margin-top: 10%;
   padding-top: 10%;
@@ -337,5 +342,8 @@ p {
   .box-skills {
     border: 2px solid white;
     margin-top: 1rem;
+  }
+  .empty-box {
+    min-height: 1rem;
   }
 }
