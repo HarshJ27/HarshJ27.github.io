@@ -280,16 +280,16 @@ p {
 
 /* Footer */
 .foot {
-  margin-top: 10%;
-  padding-top: 10%;
-  padding-bottom: 3%;
   background-color: #272727;
+  padding: 3% 0;
 }
+
 .foot-head1 {
+  color: #fff;
   display: flex;
   justify-content: center;
-  color: #fff;
 }
+
 .linktree {
   color: #fff;
 }
@@ -297,18 +297,11 @@ p {
   color: #fff;
   opacity: 0.7;
 }
+
 .foot-head2 {
+  color: #fff;
   display: flex;
   justify-content: center;
-  color: #fff;
-}
-
-.box-contact {
-  padding: 30px;
-  box-shadow: 0px 0 10px rgb(1 41 112 / 8%);
-  background-color: rgb(238, 207, 167);
-  border-radius: 5px;
-  border: 2px solid rgb(24, 24, 77);
 }
 
 /* Media queries */
@@ -345,5 +338,8 @@ p {
   }
   .empty-box {
     min-height: 1rem;
+  }
+  .foot {
+    padding: 6% 0;
   }
 }
