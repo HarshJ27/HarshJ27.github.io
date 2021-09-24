@@ -76,7 +76,7 @@ a:hover {
 /* About */
 .home {
   background-color: #4c4a48;
-  clip-path: ellipse(228% 100% at -19.42% 0%);
+  /* clip-path: ellipse(228% 100% at -19.42% 0%); */
   display: flex;
   justify-content: center;
   align-items: center;
@@ -109,7 +109,7 @@ a:hover {
 }
 
 .harsh-img {
-  border: 2px solid rgb(235, 177, 69);
+  border: 2px solid rgb(51, 50, 49);
   border-radius: 50%;
   width: 70%;
 }
@@ -325,12 +325,21 @@ p {
   .harsh-img-container {
     width: 100%;
   }
+  .harsh-img {
+    width: 50%;
+  }
   .hello {
     margin-top: 1.5rem;
     font-size: 2rem;
   }
 }
 
+@media screen and (max-width: 500px) {
+  .harsh-img {
+    width: 70%;
+  }
+  
+}
 @media screen and (max-width: 768px) {
   .box-skills {
     border: 2px solid white;
@@ -342,4 +351,5 @@ p {
   .foot {
     padding: 6% 0;
   }
+  
 }
