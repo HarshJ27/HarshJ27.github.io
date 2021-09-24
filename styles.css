@@ -67,7 +67,7 @@ nav {
 }
 
 /* About */
-.about {
+.home {
   background-color: #4c4a48;
   clip-path: ellipse(228% 100% at -19.42% 0%);
   display: flex;
@@ -76,7 +76,7 @@ nav {
   padding: 2rem;
 }
 
-.about-me {
+.intro {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -146,37 +146,40 @@ nav {
 }
 
 /* About */
-.about-par {
+.about {
   background-color: #4c4a48;
+  color: #ffffff;
+  margin-top: 2rem;
   display: flex;
   justify-content: center;
   align-items: center;
-  margin-top: 2rem;
 }
+
 .gap {
-  padding-top: 2rem;
-  padding-bottom: 2rem;
+  text-align: center;
+  padding: 2rem 0;
 }
 
 .codifiers-link {
+  color: #ffffff;
   font-weight: bold;
-  color: #10455e;
+}
+.codifiers-link:hover {
+  color: #ffffff77;
+  text-decoration: none;
 }
 
-.res-button1 {
-  padding-bottom: 1rem;
+.resume-btn {
   margin-top: 2rem;
   display: flex;
   justify-content: center;
 }
-
-.res {
-  color: white;
+.resume {
+  color: #fff;
 }
-.res:hover {
+.resume:hover {
   color: #fff;
   text-decoration: none;
-  opacity: 0.7;
 }
 
 .container-skills {
@@ -300,10 +303,9 @@ p {
 }
 
 /* Media queries */
-@media screen and (max-width: 768px) {
-  .box-skills {
-    border: 2px solid white;
-    margin-top: 1rem;
+@media screen and (max-width: 1050px) {
+  .about {
+    padding: 2rem;
   }
 }
 
@@ -311,10 +313,10 @@ p {
   .navbar-nav {
     align-items: center;
   }
-  .about {
+  .home {
     flex-direction: column-reverse;
   }
-  .about-me {
+  .intro {
     text-align: center;
     width: 100%;
   }
@@ -324,5 +326,12 @@ p {
   .hello {
     margin-top: 1.5rem;
     font-size: 2rem;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .box-skills {
+    border: 2px solid white;
+    margin-top: 1rem;
   }
 }
