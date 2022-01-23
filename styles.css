@@ -201,6 +201,10 @@ a:hover {
   padding: 30px;
   box-shadow: 0px 0 50px rgb(1 41 112 / 8%);
 }
+.box-skills:hover {
+  transform: scale(1.2);
+  transition: 0.3s;
+}
 .skill-assets {
   margin-bottom: 25px;
   padding: 7%;
@@ -231,9 +235,9 @@ p {
   margin-bottom: 1.2rem;
   width: 100%;
 }
-.project-assets:hover {
+/* .project-assets:hover {
   transform: scale(1.2);
-}
+} */
 .project-title {
   font-size: 23px;
   font-weight: bold;
